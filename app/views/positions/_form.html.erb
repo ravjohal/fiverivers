@@ -1,0 +1,14 @@
+<%= simple_form_for(@position) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :acronym %>
+    <%= f.input :created_at %>
+    <%= f.input :updated_at %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

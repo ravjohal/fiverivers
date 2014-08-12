@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @division.name %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @division.created_at %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @division.updated_at %>
+</p>
+
+<%= link_to 'Edit', edit_division_path(@division) %> |
+<%= link_to 'Back', divisions_path %>
