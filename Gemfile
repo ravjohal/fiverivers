@@ -12,7 +12,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise_invitable'
-gem 'cancan'
+# gem 'cancan'
 gem 'high_voltage'
 gem 'pg'
 gem 'pundit'
